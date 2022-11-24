@@ -1,0 +1,35 @@
+main{
+    /* background: red; */
+}
+
+.form{
+    text-align: center;
+    display: flex;
+    flex-direction: auto;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100vh;
+    padding: 20px;
+    margin: auto;
+}
+
+.form-input{
+    padding: 10px;
+    margin: 15px;
+    /* border: 2px; */
+    border-radius: 5px;
+    border: 2px solid  rgb(226 73 61 / 1);
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn{
+    max-width: 90vh;
+    margin-left: 32px;
+}
+
+.text-center{
+    margin-top: 20px;
+    font-size: 35px;
+    color: rgb(226 73 61 / 1);
+}
