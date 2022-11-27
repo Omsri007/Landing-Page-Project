@@ -146,6 +146,13 @@ footer {
     color: rgb(226 73 61 / 1);
 }
 
+@media(max-width:450px){
+
+    .divide{
+        margin-top: 5px;
+    }
+}
+
 @media(max-width:800px) {
     .navbar {
         flex-direction: column;
@@ -181,6 +188,24 @@ footer {
     .section3{
         padding: 10px;
     }
+     .divide {
+        margin-top: 35vh;
+    }
 
+    .section3{
+        height: 35vh;
+    }
+
+    .section3 table{
+        margin-left: 5vh;
+    }
+
+    .section3 table th{
+        padding: 15px 10px;
+    }
+
+    .dumbellimg{
+        width: 230px;
+    }
 
 }
